@@ -1,0 +1,19 @@
+[project]
+name = "eel2-vm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ludihan", email = "65617704+ludihan@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mypy>=2.3.1",
+]
+
+[project.scripts]
+eel2-vm = "eel2_vm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
